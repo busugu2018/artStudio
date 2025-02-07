@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(85,106,119,1) 50%, rgba(8,11,57,1) 90%);
+}
+
+@font-face {
+    font-family: Heading-Pro-Wide-Thin-trial;
+    src:url(Heading-Pro-Wide-Thin-trial.ttf);
+}
+
+@font-face {
+    font-family: Boldstrom;
+    src:url(Boldstrom.otf);
+}
+
+@font-face {
+    font-family: Love;
+    src:url(Love.ttf);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+    position: sticky;
+    top: 0;
+    
+}
+
+.navbar{
+    flex: 1;
+    text-align: right;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-family: Love;
+    padding: 8px 8px;
+}
+
+.home{
+    color: rgb(140, 129, 129);
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 8px;
+    font-family: Boldstrom;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar ul li a:hover{
+    color: rgb(70, 94, 103);
+}
+
+section .main p{
+    font-size: 30px;
+    padding: 20% 30%;
+    color: white;
+    font-family: Heading-Pro-Wide-Thin-trial;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
