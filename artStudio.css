@@ -158,7 +158,12 @@ button a{
     float: left;
 }
 
-@media only screen and (maxwidth: 769px){
+/*
+
+@media only screen and (maxwidth: 769px)
+
+*/
+@media(maxwidth: 769px){
     .hamburger{
         display: block;
     }
@@ -174,6 +179,7 @@ button a{
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+
 }
 
 footer{
