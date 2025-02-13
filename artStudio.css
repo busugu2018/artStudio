@@ -6,7 +6,7 @@
 
 body{
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(85,106,119,1) 50%, rgba(8,11,57,1) 90%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(85,106,119,1) 50%, rgba(8,11,57,1) 90%);
 }
 
 #invertedcursor {
@@ -42,7 +42,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(85,106,119,1) 50%, r
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 1% 2%;
+    padding: 1% 2%; /*padding: 0 24px;*/
     position: sticky;
     top: 0;
     
@@ -62,6 +62,18 @@ nav{
 }
 
 .home{
+    color: rgb(140, 129, 129);
+}
+
+.gallery{
+    color: rgb(140, 129, 129);
+}
+
+.about{
+    color: rgb(140, 129, 129);
+}
+
+.booking{
     color: rgb(140, 129, 129);
 }
 
@@ -97,6 +109,30 @@ nav{
     background-color: white;
 }
 
+
+/*==========================================================================================
+One Side Page Vertical Scroll
+==========================================================================================*/
+.flexbox{
+    display: flex;
+}
+
+.left-panel {
+    position: sticky; /* Set the element to become sticky  */
+    height: 88vh;
+    width: 50%;
+    background: rgb(1, 88, 61);
+    background: linear-gradient(90deg, rgb(1, 54, 134) 10%, rgb(21, 109, 164) 50%, rgba(8,11,57,1) 90%);
+    top: 0; /* Set the sticky position top */
+  }
+
+  .right-panel {
+    height: 200rem;
+    width: 50%;
+    background: rgb(101, 122, 115);
+    background: linear-gradient(90deg, rgb(142, 165, 199) 10%, rgb(46, 127, 177) 50%, rgb(81, 87, 177) 90%);
+  }
+/*==========================================================================================*/
 main p{
     font-size: 30px;
     padding: 20% 30%;
@@ -180,6 +216,23 @@ button a{
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .navMenu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    li{
+        margin: 16px 0;
+    }
+
+    li.active{
+        left: 0;
+    }
 }
 
 footer{
