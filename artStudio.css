@@ -117,27 +117,72 @@ One Side Page Vertical Scroll
     display: flex;
 }
 
+/*Left*/
 .left-panel {
     position: sticky; /* Set the element to become sticky  */
     height: 88vh;
     width: 50%;
-    background: rgb(1, 88, 61);
-    background: linear-gradient(90deg, rgb(1, 54, 134) 10%, rgb(21, 109, 164) 50%, rgba(8,11,57,1) 90%);
     top: 0; /* Set the sticky position top */
+/*    background: rgb(1, 88, 61);
+    background: linear-gradient(90deg, rgb(1, 54, 134) 10%, rgb(21, 109, 164) 50%, rgba(8,11,57,1) 90%);
+*/    
   }
+  
+.mainImage{
+    text-align: center;
+    padding-top: 15%;
+}
+  
+.left-panel img{
+    height: 600px;
+}
 
-  .right-panel {
-    height: 200rem;
+
+/* Right*/
+.right-panel {
+    height: 100rem;
     width: 50%;
+    /*
     background: rgb(101, 122, 115);
     background: linear-gradient(90deg, rgb(142, 165, 199) 10%, rgb(46, 127, 177) 50%, rgb(81, 87, 177) 90%);
-  }
+    */
+}
+
+.upperPanel{
+    /*    height: 100rem; */    
+    width: 100%;
+    padding-top: 35%;
+
+}
+
+.upperPanel p{
+    margin: 0.02%;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(138, 168, 199);
+}
+
+.upperOne{
+    font-size:large;
+    margin-bottom: -1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lowerPanel{
+    /*    height: 100rem; */
+    width: 50%;
+}
+
+
 /*==========================================================================================*/
 main p{
     font-size: 30px;
     padding: 20% 30%;
     color: white;
     font-family: Heading-Pro-Wide-Thin-trial;
+    text-align: center;
 }
 
 .images{
