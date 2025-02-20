@@ -117,7 +117,9 @@ One Side Page Vertical Scroll
     display: flex;
 }
 
-/*Left*/
+/*=============================
+Left
+=============================*/
 .left-panel {
     position: sticky; /* Set the element to become sticky  */
     height: 88vh;
@@ -138,9 +140,11 @@ One Side Page Vertical Scroll
 }
 
 
-/* Right*/
+/*=============================
+Right
+=============================*/
 .right-panel {
-    height: 100rem;
+    height: 80rem;
     width: 50%;
     /*
     ba ckground: rgb(101, 122, 115);
@@ -151,6 +155,7 @@ One Side Page Vertical Scroll
 .upperPanel{
     /*    height: 100rem; */    
     width: 100%;
+    height: 40rem;
     padding-top: 35%;
 
 }
@@ -169,11 +174,44 @@ One Side Page Vertical Scroll
     text-align: center;
     font-weight: bold;
 }
-
+/*================================================================================*/
 .lowerPanel{
     /*    height: 100rem; */
     width: 50%;
+    height: 40rem;
 }
+
+.lowerPanel h1{
+    font-size: small;
+    color: rgb(135, 162, 184);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slidingBox{
+    display: flex;
+    max-width: 100%;
+    animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll{
+    to{
+        transform: translateX(-800%);
+    }
+}
+
+.lowerPanel p{
+    margin: 1%;
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(179, 192, 203);   
+    overflow: hidden;
+
+
+}
+
+
 
 
 /*==========================================================================================*/
