@@ -144,7 +144,7 @@ Left
 Right
 =============================*/
 .right-panel {
-    height: 80rem;
+    height: 100rem;
     width: 50%;
     /*
     ba ckground: rgb(101, 122, 115);
@@ -155,7 +155,7 @@ Right
 .upperPanel{
     /*    height: 100rem; */    
     width: 100%;
-    height: 40rem;
+    height: 55rem;
     padding-top: 35%;
 
 }
@@ -217,7 +217,7 @@ Right
 */
 
 .lowerPanel{
-    height: 40rem;
+    height: 45rem;
     padding-top: 5%;
     overflow: hidden;
 }
